@@ -12,3 +12,4 @@ Para isso precisamos definir a estrutura padrao das partes:
 - Controllers: sao os gerenciadores das acoes de cada modulo, basicamente ele eh chamado dentro de uma rota e usa o Service para acoes com o banco
 - Rotas: baseada num JSON deve criar toda a API para o CRUD de cada modulo
 - Views: views padrao para do CRUD
+- Comunicacao: sera feita via REST utilizando uma API comum de CRUD para todos modulos, as rotas adicionais serao descobertas e usada pelos modulos consuindo o JSON q define as rotas para q um modulo nao precise pre-conhecer outro. **Pensar melhor nessa area pois eh a principal**. Precisamos 
